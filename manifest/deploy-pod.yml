@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-go-react
+  labels:
+    tier: frontend
+spec:
+  containers:
+    - image: imhshekhar47/go-react:v1 
+      imagePullPolicy: IfNotPresent
+      name: go-react
+      ports:
+      - name: web
+        containerPort: 8080
+        protocol: TCP

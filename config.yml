@@ -1,0 +1,7 @@
+server:
+    host: localhost
+    port: 8080
+application:
+    name: go-react-application
+    version: v1
+    developer: himanshu.shekhar.in@gmail.com
